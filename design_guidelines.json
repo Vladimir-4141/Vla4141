@@ -1,0 +1,164 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "Creative Designer",
+    "principles": [
+      "Fusion over Imitation: Mix Kamchatka nature with Swiss precision.",
+      "Emotion First: Inspire pride in the region and excitement for the future.",
+      "Content is King: Every pixel serves the student's journey.",
+      "Zoom In: Focus on the details of education and local opportunities.",
+      "Negative Space: Let the content breathe like the Kamchatka wilderness."
+    ]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["600", "700", "800"],
+      "usage": "Use for all section titles, hero text, and card headers. Tight tracking (-0.02em).",
+      "import": "@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');"
+    },
+    "body": {
+      "font_family": "Inter, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Use for paragraphs, lists, and UI elements. Normal tracking.",
+      "import": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Ocean Depth",
+        "hex": "#003B5C",
+        "usage": "Primary buttons, active states, strong borders."
+      },
+      "secondary": {
+        "name": "Volcanic Teal",
+        "hex": "#008080",
+        "usage": "Secondary buttons, icons, illustrations."
+      },
+      "accent": {
+        "name": "Berry Red",
+        "hex": "#D32F2F",
+        "usage": "Call to actions (CTAs), alerts, highlights. Use sparingly."
+      },
+      "background": {
+        "name": "Snow White",
+        "hex": "#FFFFFF",
+        "usage": "Main page background."
+      },
+      "surface": {
+        "name": "Ice Blue",
+        "hex": "#F0F8FF",
+        "usage": "Section backgrounds, card backgrounds (light mode)."
+      },
+      "text": {
+        "primary": "#0F172A",
+        "secondary": "#475569",
+        "muted": "#94A3B8"
+      }
+    },
+    "gradients": {
+      "hero": "linear-gradient(135deg, #F0F8FF 0%, #E0F2F1 100%)",
+      "card_hover": "linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 100%)"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "style": "Ice Glass",
+      "css": "backdrop-filter: blur(12px); background: rgba(255, 255, 255, 0.7); border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);"
+    },
+    "borders": {
+      "radius": "rounded-xl",
+      "width": "border",
+      "color": "border-slate-200"
+    },
+    "shadows": {
+      "card": "0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025)",
+      "hover": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_system": {
+      "bento_mode_a": {
+        "description": "Asymmetric grid for marketing sections.",
+        "classes": "grid grid-cols-1 md:grid-cols-12 gap-6"
+      },
+      "catalog_grid": {
+        "description": "Dense grid for catalogs.",
+        "classes": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      }
+    },
+    "spacing": {
+      "section_padding": "py-16 md:py-24",
+      "element_gap": "gap-4"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#003B5C] text-white hover:bg-[#002a42] rounded-full px-8 py-3 font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+      "secondary": "bg-white text-[#003B5C] border border-[#003B5C] hover:bg-[#F0F8FF] rounded-full px-8 py-3 font-semibold transition-all"
+    },
+    "cards": {
+      "institution": "bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-all overflow-hidden group",
+      "feature": "bg-[#F0F8FF] rounded-2xl p-8 border border-slate-200 hover:border-[#008080] transition-colors"
+    },
+    "inputs": {
+      "search": "h-12 rounded-full border-slate-200 focus:border-[#003B5C] focus:ring-[#003B5C] pl-12"
+    }
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1610575861046-8d4ae58a1d59?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxLYW1jaGF0a2ElMjB2b2xjYW5vJTIwbGFuZHNjYXBlJTIwbmF0dXJlfGVufDB8fHx8MTc3MDMzMTY0OHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Kamchatka Volcano Landscape",
+      "usage": "Hero section background or parallax element."
+    },
+    "student_life": [
+      {
+        "url": "https://images.unsplash.com/photo-1758270705172-07b53627dfcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwyfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGdyb3VwJTIwZGl2ZXJzZXxlbnwwfHx8fDE3NzAzMzE2NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Students collaborating",
+        "usage": "About section or 'Student Life' feature."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758270705317-3ef6142d306f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGdyb3VwJTIwZGl2ZXJzZXxlbnwwfHx8fDE3NzAzMzE2NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Diverse student group",
+        "usage": "Admissions or Community section."
+      }
+    ],
+    "campus": {
+      "url": "https://images.unsplash.com/photo-1762075314840-df83c48bbde8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb2xsZWdlJTIwY2FtcHVzJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwwfHx8fDE3NzAzMzE2NTZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Modern Campus Building",
+      "usage": "Institution catalog headers or specific institution cards."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Ice Glass' effect for all overlay elements (modals, sticky headers, floating cards).",
+    "Use the 'Bento Mode A' grid for the landing page to avoid a generic stacked layout.",
+    "Ensure the 'Ocean Depth' blue is used for primary actions to maintain accessibility.",
+    "The map must be a central feature - ensure it takes up significant screen real estate when active.",
+    "Use 'Manrope' for all headings to give a modern, slightly technical but friendly feel.",
+    "Do not use generic 'Lorem Ipsum'. Use context-aware placeholders like 'Kamchatka State Technical University' or 'Marine Biology Program'.",
+    "For the 'Career Choice' section, use large, clickable cards with icons and the 'Volcanic Teal' accent color."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container, ie do not add '.App { text-align: center; }' in the css file. This disrupts the human natural reading flow of text.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN.",
+    "Prioritize using pre-existing components from src/components/ui when applicable.",
+    "Create new components that match the style and conventions of existing components when needed.",
+    "Examine existing components to understand the project's component patterns before creating new ones.",
+    "Components MUST use named exports (export const ComponentName = ...).",
+    "Pages MUST use default exports (export default function PageName() {...}).",
+    "Use 'sonner' for toasts. Sonner component are located in '/app/src/components/ui/sonner.tsx'."
+  ]
+}
